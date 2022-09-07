@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f295abeebc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="game">
+            <div class="rivals">
+
+                <div class="userrival">
+                    <h2 class="user">YOU: <span id="userchoice"></span></h2>
+                    <img id="userimg" src="./img/you.svg" alt="">
+                    <br>
+                    <br>
+
+                    <div class="btnchoice">
+                        <button  class="button" id="Pedra" value="Pedra" >Pedra<i class="fa-regular fa-hand-back-fist"></i></button>
+                        <button class="button" id="Papel" value="Papel">Papel<i class="fa-regular fa-hand"></i></button>
+                        <button class="button" id="Tesoura" value="Tesoura">Tesoura<i class="fa-regular fa-hand-scissors"></i></button>
+                     </div>  
+
+                </div>
+
+                <div class="pcrival">
+                    <h2 class="computer"> CPU: <span id="computerchoice"></span> </h2>
+                    <img id="pcimg" src="./img/Computer.svg" alt="">
+
+                    <div class="btnchoice">
+                        <button disabled class="pedraPc" id="Pedra" >Pedra<i class="fa-regular fa-hand-back-fist"></i></button>
+                        <button  disabled class="papelPc" id="Papel" >Papel<i class="fa-regular fa-hand"></i></button>
+                        <button  disabled class="tesouraPc" id="Tesoura" >Tesoura<i class="fa-regular fa-hand-scissors"></i></button>
+                     </div>  
+
+                </div>
+
+            </div>
+
+
+            <h2 class="result">Resultado: <span id="result"></span></h2>
+
+        
+        </div>
+
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

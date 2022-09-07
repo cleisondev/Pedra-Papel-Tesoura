@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: auto;
+    height: 96vh;
+    background-color: rgb(245, 100, 78);
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.game{
+    width: 70%;
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+}
+
+.rivals{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#userimg{
+    width: 18%;
+}
+
+#pcimg{
+    width: 70%;
+}
+
+
+.computer{
+    padding: 10px;
+}
+.user{
+    align-items: center;
+    padding: 10px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.choices{
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.btnchoice{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -20px;
+}
+
+button{
+    width:60px;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pedraPc{
+    display: none;
+    
+}
+.papelPc{
+    display: none;
+}
+.tesouraPc{
+    display: none;
+}
